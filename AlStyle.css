@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase; 
+    letter-spacing: .5em;
+    margin: 5px;
+}
+h4 {
+    margin-top: 100px;
+    margin: 5px;
+}
+img {
+    cursor: pointer;
+    margin: 50px;
+    border: 3px solid darkgrey;
+    cursor: default; 
+}
+.line
+{
+    text-align: center;
+    width: 50%;
+    max-width:600px;
+}
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.column
+{
+	float: left;
+	width: 44%;
+	padding: 25px;
+	margin: 1%;
+	border-radius: 5px;
+    background-color: none;
+    -webkit-column-rule-style: 4px single #ff00ff;
+}
+.This
+{
+    color:  #e97451;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.sp1
+{
+    color: #f4c20d;
+}
+.sp2
+{
+    color: #db3236;
+}
+.sp3
+{
+    color:  #4885ed;
+}
+.spp
+{
+    color: #3cba54;
+}
+hr {
+    border-width: 2;
+    border-top: 2px solid lightgray;
+    max-width: 960px; 
+}
+.title {
+    margin: 6%;
+}
+.nav-item {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(142, 152, 161);
+}
+.nav-item1 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+#verticalline
+{
+    margin: 3%;
+}
+#edu-exp {
+    display: flex;
+    margin: 3%;
+}
+#imageflex {
+    display: inline-flexbox;
+}
+#PM {
+    margin-bottom: 3%;
+    margin-top: 0%;
+}
+.footer {
+    margin-top: 3%;
+
+}
